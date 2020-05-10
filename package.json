@@ -1,0 +1,49 @@
+{
+  "name": "TodoAuth",
+  "private": true,
+  "description": "Todo List with Firebase. Login and register with Google.",
+  "version": "0.1.0",
+  "author": "Rohit Gupta <rohitguptab33@gmail.com>",
+  "dependencies": {
+    "firebase": "^7.14.3",
+    "gatsby": "^2.21.21",
+    "gatsby-cli": "^2.12.1",
+    "gatsby-image": "^2.3.1",
+    "gatsby-plugin-firebase": "^0.2.0-beta.4",
+    "gatsby-plugin-manifest": "^2.3.3",
+    "gatsby-plugin-offline": "^3.1.2",
+    "gatsby-plugin-react-helmet": "^3.2.2",
+    "gatsby-plugin-sharp": "^2.5.3",
+    "gatsby-source-filesystem": "^2.2.2",
+    "gatsby-transformer-sharp": "^2.4.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.0.0",
+    "react-images-upload": "^1.2.8",
+    "react-tabs": "^3.1.0"
+  },
+  "devDependencies": {
+    "prettier": "2.0.4"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rohitguptab/todoAuth"
+  },
+  "bugs": {
+    "url": "https://github.com/rohitguptab/todoAuth/issues"
+  }
+}

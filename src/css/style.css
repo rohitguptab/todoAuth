@@ -153,7 +153,7 @@ ul{font-size:14px}
 .todo-list li li.list-item input.toggle{width:20px;height:20px}
 .todo-list li .sub-task li .settings{display:none}
 .todo-list li .sub-task li:hover .settings{display:flex}
-.todo-list li .title{width:auto;border:none;background:none;font-size:22px;outline:none}
+.todo-list li .title{width:100%;border:none;background:none;font-size:22px;outline:none}
 ul.item-list{list-style:none;padding:0;display:flex;flex-wrap:wrap}
 .todo-list li .details textarea{width:100%;border:none;background:none;font-size:16px;outline:none;min-height:100px}
 ul.item-list li{margin-right:5px;padding:10px 15px;background:#fff;color:#333;cursor:pointer;border:1px solid #333;margin-bottom:5px;position:relative}
